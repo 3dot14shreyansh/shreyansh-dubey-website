@@ -38,7 +38,7 @@ const hero_config = {
     content:
       'I believe life is one big game of perspective, so I strive to analyse data from as many angles as possible.',
     resume: {
-      url: 'https://drive.google.com/file/d/1TqHXIubwS0JvB1NwOqZuUzbbCLBlD8vc/view'
+      url: 'https://drive.google.com/file/d/1UOdiQ6aaNqQLIKN0QXQW2qFRH-FnJZ0q/view'
     },
     profile: {
       title: 'Github',
