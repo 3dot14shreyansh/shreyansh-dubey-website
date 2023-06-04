@@ -72,7 +72,7 @@ const HeroContent: React.FC<{ content: any }> = ({ content }) => {
   const ProfileIcon = content.profile.icon;
   return (
     <div className="w-full lg:w-4/5 h-full flex flex-col justify-center items-start px-8 xl:px-20">
-      <motion.div
+      <motion.h1
         initial={{ opacity: 0, y: '10px' }}
         animate={{ opacity: 1, y: 0 }}
         transition={{
@@ -83,8 +83,8 @@ const HeroContent: React.FC<{ content: any }> = ({ content }) => {
         className={`${raleway.className} text-5xl lg:text-6xl xl:text-7xl font-extrabold text-sd-white py-2`}
       >
         {content.intro[0]}
-      </motion.div>
-      <motion.div
+      </motion.h1>
+      <motion.h1
         initial={{ opacity: 0, y: '10px' }}
         animate={{ opacity: 1, y: 0 }}
         transition={{
@@ -95,8 +95,8 @@ const HeroContent: React.FC<{ content: any }> = ({ content }) => {
         className={`${raleway.className} text-5xl lg:text-6xl xl:text-7xl font-extrabold text-sd-purple py-2`}
       >
         {content.intro[1]}
-      </motion.div>
-      <motion.div
+      </motion.h1>
+      <motion.h2
         initial={{ opacity: 0, y: '10px' }}
         animate={{ opacity: 1, y: 0 }}
         transition={{
@@ -107,7 +107,7 @@ const HeroContent: React.FC<{ content: any }> = ({ content }) => {
         className={`${raleway.className} text-base lg:text-md xl:text-lg text-sd-white`}
       >
         {content.role}
-      </motion.div>
+      </motion.h2>
       <motion.div
         initial={{ opacity: 0, y: '10px' }}
         animate={{ opacity: 1, y: 0 }}

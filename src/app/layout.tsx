@@ -1,8 +1,10 @@
 import '@/styles/globals.css';
 
 export const metadata = {
-  title: 'Shreyansh Dubey',
-  description: `I'm a data enthusiast who loves tackling problems by looking at them from multiple angles. Whether it's writing code or living my life, I strive to keep things simple yet intuitive. When I'm not working, you can find me tending to my in-house garden or hitting the open road. And speaking of roads, I'm passionate about promoting road safety and working towards making our streets safer for everyone.`
+  title:
+    'Shreyansh Dubey - Data Enthusiast | Code Writer | Road Safety Advocate',
+  description: `"I'm a data enthusiast with a passion for problem-solving and a love for simplicity. Explore my expertise in coding, libraries such as sklearn, spacy, numpy, nltk, pandas, matplotlib, seaborn, opencv, keras, and tensorflow. Discover my dedication to promoting road safety for a safer community.`,
+  keywords: `data enthusiast, problem-solving, simplicity, code writer, sklearn, spacy, numpy, nltk, pandas, matplotlib, seaborn, opencv, keras, tensorflow, road safety advocate`
 };
 
 export default function RootLayout({
